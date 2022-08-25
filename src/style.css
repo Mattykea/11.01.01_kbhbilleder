@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Titillium Web", sans-serif;
+  }
+
+  h1,
+  h2 {
+    font-family: "Quantico", sans-serif;
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+  svg {
+    width: 30rem;
+    color: #94a3b8;
+  }
+}
