@@ -8,6 +8,10 @@ module.exports = {
       accent: "#1CD6CE",
     },
 
+    extend: {
+      fontFamily: "'Poppins', system-ui, sans-serif",
+    },
+
     extend: {},
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
